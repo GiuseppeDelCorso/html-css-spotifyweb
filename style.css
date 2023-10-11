@@ -202,11 +202,9 @@ footer {
     background-color: white;
     border-radius: 10px;
 }
-.avanzameto-canzone-2:hover{
-    width: 30%;
-    height: 19%;
+.avanzameto-canzone-2:hover,
+.avanzameto-canzone-4:hover{
     background-color: rgb(102, 253, 1);
-    border-radius: 10px;
 }
 .style-number{
     font-size: 10px;
@@ -246,7 +244,4 @@ footer {
     background-color: white;
     border-radius: 10px;
 }
-.avanzameto-canzone-4:hover{
-    background-color: rgb(102, 253, 1) ;
-
-}
+.

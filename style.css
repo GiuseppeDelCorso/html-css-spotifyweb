@@ -16,7 +16,7 @@ main {
 }
 
 main > nav {
-    background: rgb(0, 0, 0);
+    background: rgb(0, 0, 0, 255);
     height: 100%;
     width: 15%;
 }
@@ -24,12 +24,12 @@ main > nav {
 main > section {
     height: 100%;
     width: 85%;
-    background: teal;
+    background: rgb(255, 255, 255);
 }
 
 footer {
     height: 10%;
-    background: rgb(59 55 56);
+    background: rgba(40,41,41,255);
 }
 .container-nav{
     display: flex;
@@ -102,6 +102,10 @@ footer {
 .list-slyle{
     list-style: none;
     padding: 6px 0 6px 15px;
+    height: 30%;
+    overflow-y: scroll;
+    scrollbar-color: rgb(59, 59, 148) #bada55;
+    scrollbar-color: red;
 }
 .list-item-style{
     padding-top: 10px;
@@ -123,6 +127,139 @@ footer {
     width: 90%;
     margin: 0 auto;
 }
+/******SECTION****/
+.barra-upgrade{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 10%;
+    background-color: rgba(9,10,18,255);
+}
+.bottone-upgrade{
+    margin-right: 5px;
+    background-color:rgba(9,10,18,255);
+    color: white;
+    width: 200px;
+    height: 35px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    font-size: 11px;
+}
+.bottone-upgrade:hover{
+    width: 210px;
+    height: 40px;
+    border-radius: 20px;
+}
+.navbar-section{
+    height: 5%;
+    background-color: rgb(20, 25, 34);
+}
+.box-contenuto-navbar-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.contenuto-navbar-section{
+    font-size: 12px;
+    color: darkgray;
+    padding: 5px 14px 0 14px;
+}
+.contenuto-navbar-section:hover{
+    color: white;
+    font-weight: bold;
+    border-bottom: 2px solid greenyellow;
+}
+.container-section{
+    background-color: rgb(20, 25, 34);
+    height: calc(100% - 10% - 5%);
+    overflow: auto;
+}
+.titolo-categoria{
+    background-color: rgb(20, 25, 34);
+    width: 95%;
+    margin: 0 auto;
+}
+.contenitore-card{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenitore-card-2{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.card{
+    width: calc(100% / 6);
+    padding: 15px;
+}
+.container-immagine{
+    position: relative;
+}
+.background-opacity{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 92px;
+    display: none;
+}
+.background-opacity-circle{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 92px;
+    display: none;
+    border-radius: 110px;
+}
+
+.container-immagine:hover 
+.background-opacity {
+    display: block;
+}
+.container-immagine:hover
+.background-opacity-circle {
+    display: block;
+}
+.immagine-card{
+    width: 100%;
+    display: block;
+}
+.immagine-card-circle{
+    width: 100%;
+    display: block;
+    border-radius: 110px;
+}
+.nome-canzone{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.sottotitolo{
+    color: darkgray;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 4px;
+    margin-bottom: 10px;
+}
+.sottotitolo-caregoria{
+    color: darkgrey;
+    width: 95%;
+    margin: 0 auto;
+    padding: 10px 0 20px 0;
+    font-size: 15px;
+}
+.play-card{
+    font-size: 40px;
+}
+
 /******Footer*****/
 .container-footer{
     display: flex;

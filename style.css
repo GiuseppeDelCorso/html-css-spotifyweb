@@ -34,7 +34,7 @@ footer {
 .container-nav{
     display: flex;
     flex-direction: column;
-    height: 91%;
+    height: 90%;
 }
 .container-nav-footer{
     display: flex;
@@ -44,19 +44,22 @@ footer {
     width: 60%;
     padding: 20px 0 20px 9px;
 }
+.logo-small{
+    display: none;
+}
 .item-nav{
     padding: 6px 0 6px 15px;
     color: darkgray;
 }
 .box-item-nav{
     display: flex;
-    width: 29%;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
 }
 .box-item-nav-large{
     display: flex;
-    width: 47%;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
 }
@@ -64,6 +67,8 @@ footer {
     padding-top: 1px;
     font-size: 14px;
     color: darkgray;
+    width: 100%;
+    padding-left: 5px;
 }
 .item-nav:hover, 
 .categoria-item:hover, 
@@ -80,7 +85,7 @@ footer {
 .box-item-nav-2{
     display: flex;
     justify-content: space-between;
-    width: 51%;
+    width: 100%;
     padding: 6px 0 6px 15px;
 }
 .style-plylist{
@@ -89,15 +94,17 @@ footer {
 }
 .plus-nav{
     background-color: gray;
-    width: 27%;
+    width: 16%%;
     text-align: center;
     padding: 11px;
     color: black;
 }
 .style-crea-plylist{
     line-height: 20px;
-    padding-top: 9px;
+    padding-top: 10px;
     color: darkgray;
+    width: 100%;
+    padding-left: 5px;
 }
 .list-slyle{
     list-style: none;
@@ -116,12 +123,15 @@ footer {
     display: flex;
     justify-content: space-between;
     width: 39%;
+    width: 100%;
     padding: 6px 0 6px 3px;
 }
 .style-installa-app{
     padding-top: 7px;
     font-size: 14px;
     color: darkgrey;
+    width: 100%;
+    padding-left: 5px;
 }
 .hr-nav{
     width: 90%;
@@ -383,7 +393,7 @@ footer {
 }
 /*****MEDIA QUERIS*****/
  
-@media (max-width: 768px){
+@media (max-width: 1160px){
 
     .contenitore-card{
         flex-wrap: wrap;
@@ -408,7 +418,7 @@ footer {
         width: 66%;
     }
     .box-item-nav-3{
-        width: 50%;
+        width: 100%;
     } 
     .box-fuonzioni-1{
         width: 39%;
@@ -434,8 +444,12 @@ footer {
     .titolo-categoria{
         padding-top: 20px;
     }
+    .style-installa-app{
+        width: 100%;
+        padding-left: 5px;
+    }
 }
-@media (max-width: 480px){
+@media (max-width: 570px){
 
     .contenitore-card{
         flex-wrap: wrap;
@@ -458,16 +472,16 @@ footer {
         width: 69%;
     }
     .box-item-nav{
-        width: 46%;
+        width: 40%;
     }
     .box-item-nav-large{
-        width: 77%;
+        width: 67%;
     }
     .box-item-nav-2{
         width: 90%;
     }
     .box-item-nav-3{
-        width: 68%;
+        width: 100%;
     }
     .box-contenuto-navbar-section{
         flex-wrap: wrap;
@@ -514,3 +528,39 @@ footer {
     }
     
 }
+@media (max-width: 480px){
+    .categoria-item{
+        display: none;
+    }
+    .box-item-nav-2{
+        display: none;
+    }
+    .style-plylist{
+        display: none;
+    }
+    .list-slyle{
+        display: none;
+    }
+    .style-installa-app{
+        display: none;
+    }
+    .hr-nav{
+        display: none
+    }
+    main > nav {
+        width: 10%;
+    }
+    main > section{
+        width: 90%;
+    }
+    .logo{
+        display: none;
+    }
+    .logo-small{
+        display: block;
+        width: 67%;
+        padding: 5px;
+        margin: 9px 9px 2px 9px
+    }
+}
+ 

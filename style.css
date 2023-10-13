@@ -381,4 +381,136 @@ footer {
     background-color: white;
     border-radius: 10px;
 }
-.
+/*****MEDIA QUERIS*****/
+ 
+@media (max-width: 768px){
+
+    .contenitore-card{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .card{
+        width: 25%;
+    }
+    main > section{
+        width: 70%;
+    }
+    main > nav{
+        width: 30%;
+    }
+    .box-item-nav{
+        width: 33%;
+    }
+    .box-item-nav-large{
+        width: 55%;
+    }
+    .box-item-nav-2{
+        width: 66%;
+    }
+    .box-item-nav-3{
+        width: 50%;
+    } 
+    .box-fuonzioni-1{
+        width: 39%;
+    }
+    .box-fuonzioni-2{
+        width: 85%;
+    }
+    .box-fuonzioni-3{
+        width: 38%;
+    }
+    .box-item-footer{
+        width: 49%;
+    }
+    .box-nome-sinister{
+        width: 46%;
+    }
+    .immagine-sinister{
+        width: 16%;
+    }
+    .contenuto-navbar-section{
+        font-size: 9px;
+    }
+    .titolo-categoria{
+        padding-top: 20px;
+    }
+}
+@media (max-width: 480px){
+
+    .contenitore-card{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .card{
+        width: 50%;
+        padding: 6px;
+    }
+    main > section{
+        width: 65%;
+    }
+    main > nav{
+        width: 35%;
+    }
+    .titolo-categoria{
+        padding: 20px 0 20px 0
+    }
+    .logo{
+        width: 69%;
+    }
+    .box-item-nav{
+        width: 46%;
+    }
+    .box-item-nav-large{
+        width: 77%;
+    }
+    .box-item-nav-2{
+        width: 90%;
+    }
+    .box-item-nav-3{
+        width: 68%;
+    }
+    .box-contenuto-navbar-section{
+        flex-wrap: wrap;
+    }
+    .navbar-section{
+        height: 12%;
+    }
+    .container-section{
+        height: calc(100% - 10% - 12%);
+    }
+    .box-fuonzioni-1{
+        margin: 18px 0 18px 6px;
+    }
+    .box-fuonzioni-2{
+        width: 70%;
+    }
+    .box-fuonzioni-1{
+        margin: 21px 0px 16px 10px;
+    }
+    .box-nome-sinister {
+        font-size: 13px;
+    }
+    .nome-style-footer{
+        font-size: 8px;
+    }
+    .box-item-footer{
+        flex-direction: column;
+        width: auto;
+        margin-top: 3px;
+    }
+    .box-item-2-footer{
+        width: 100%;
+        padding: 29px 0 10px 0;
+    }
+    .box-item-3-footer{
+        width: 93%;
+    }
+    .item-footer-box-1{
+        padding-top: 3px;
+    }
+    .immagine-sinister{
+        width: 31%;
+        margin-right: 11px;
+    }
+    
+}
